@@ -11,3 +11,10 @@ $(document).ready(function () {
         }
     });
 });
+
+const toggleBtn = document.querySelector('.toggle_btn');
+toggleBtn.addEventListener('click', function () {
+    const nav = document.querySelector('nav');
+    console.log(nav);
+    nav.classList.toggle('explore');
+});
