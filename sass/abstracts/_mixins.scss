@@ -1,0 +1,81 @@
+@mixin btn($f-size,$updown,$leftright,$bg,$color) {
+    display: inline-block;
+    background: $bg;
+    padding: $updown $leftright;
+    color: $color!important;
+    text-transform: uppercase;
+    font-size:$f-size;
+}
+@mixin section_heading(){
+    .heading-p{
+           
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: $main-color;
+        text-transform: uppercase;
+    
+}
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 1.5rem 0;
+}
+p.heading-para {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: gray;
+}
+}
+@mixin mylist($anchor-color,$icon-color){
+    margin-top: 2rem;
+    li{
+        margin-bottom: 1.2rem;
+        position: relative;
+        margin-left:2.5rem;
+        &::before{
+            content: "\f058";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            position: absolute;
+            left: -2.5rem;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.5rem;
+            color:$icon-color;
+        }
+        a{
+            color: $anchor-color;
+            font-size:1.4rem;
+            text-transform: capitalize;
+            font-weight: 500;
+        }
+    }
+    li:last-child{
+        margin-bottom: 0rem;
+    }
+}
+
+@mixin social_media(){
+        display: flex;
+        align-items: center;
+        span{
+            display: inline-block;
+            width: 3.3rem;
+            height:3.3rem;
+            background-color:red;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             cursor: pointer;
+            margin-left:1.4rem;
+    
+            i{
+                color:white;
+                font-size:1.6rem;
+            }
+        }
+        span:first-child{
+            margin-left: 0rem;
+        }
+    }

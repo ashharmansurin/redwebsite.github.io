@@ -1,0 +1,60 @@
+header {
+    width: 100%;
+    height: 10vh;
+    .header_container {
+        max-width: 85%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 600;
+            font-family: 'Reggae One', cursive;
+        }
+        .toggle_btn{
+            display: none;
+        }
+        nav{
+            width: 75%;
+            .main_menu{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+            }
+            .main_menu > li{
+                .dropdown-menu{
+                    li{
+                        a{
+                            color:black;
+                        }
+                    }
+                }
+               
+                a{
+                    color: white;
+                    text-transform: uppercase;
+                    font-size:1.1rem;
+                    font-weight: 500;
+                }
+                .get_start {
+                    display: inline-block;
+                    background: $main-color;
+                    padding: 1rem 1.5rem;
+                    color: white!important;
+                }
+            }
+            .main_menu > li:last-child{
+                margin-left:6rem;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+header.change_header{
+        padding:4rem 0;
+        background: #5D6D7E ;
+        transition:all .3s linear;
+}

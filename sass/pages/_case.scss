@@ -1,0 +1,71 @@
+.social_market{
+    margin-top:6rem;
+    &_content{
+        h2 {
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+        p{
+            line-height: 1.9;
+            color: gray;
+        }
+        .grid-items {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 2rem;
+            margin: 2rem 0;
+            .item{
+                display: flex;
+                column-gap: 1.2rem;
+                h5 {
+                    font-weight: 700;
+                    font-size: 1.6rem;
+                }
+                i{
+                    color:$main-color;
+                    width: 4rem;
+                }
+                p {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+        .share{
+            h4{
+                color:$main-color;
+                font-weight: 600;
+            }
+            .social-media{
+                margin-top:2rem;
+                @include social_media();
+            }
+        }
+    }
+}
+.overview{
+    width: 100%;
+    margin-top:6rem;
+    margin-bottom: 6rem;
+    h2 {
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+    }
+    p {
+        font-size: 1.3rem;
+        word-spacing: 1px;
+        line-height: 1.9;
+        color:gray;
+    }
+    .overview-list-wrapper{
+        margin-top: 2rem;
+        h4{
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+        .about-list{
+            @include mylist(gray,$main-color)
+        }
+      
+
+    }
+}
