@@ -1021,6 +1021,118 @@ footer .bottom .footer-end {
   color: gray;
 }
 
+.pricing {
+  width: 100%;
+  margin-top: 5rem !important;
+}
+.pricing .heading-content .heading-p {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #ff4354;
+  text-transform: uppercase;
+}
+.pricing .heading-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 1.5rem 0;
+}
+.pricing .heading-content p.heading-para {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: gray;
+}
+.pricing .pricing-card {
+  cursor: pointer;
+}
+.pricing .pricing-card:hover {
+  background-color: #ff4354;
+}
+.pricing .pricing-card:hover h1 {
+  color: white;
+}
+.pricing .pricing-card:hover h3 {
+  color: white;
+}
+.pricing .pricing-card:hover .info {
+  color: white;
+}
+.pricing .pricing-card:hover .card-details li {
+  color: white;
+}
+.pricing .pricing-card:hover .card-details li::before {
+  color: white;
+}
+.pricing .pricing-card:hover .mybtn {
+  background-color: white;
+  color: #ff4354 !important;
+}
+.pricing .pricing-card h3 {
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #ff4354;
+}
+.pricing .pricing-card h1 {
+  font-weight: 800;
+  font-size: 3.9rem;
+  color: #ff4354;
+}
+.pricing .pricing-card .info {
+  color: gray;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.pricing .pricing-card .card-details {
+  margin-top: 1.4rem;
+}
+.pricing .pricing-card .card-details li {
+  margin-bottom: 1.2rem;
+  color: gray;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 1.5rem;
+  position: relative;
+}
+.pricing .pricing-card .card-details li::before {
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+  color: #ff4354;
+  left: 70px;
+}
+.pricing .pricing-card .mybtn {
+  display: inline-block;
+  background: #ff4354;
+  padding: 1rem 2rem;
+  color: white !important;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.service-about #accordionExample {
+  margin-top: 3rem;
+}
+.service-about #accordionExample .accordion-item {
+  background-color: white !important;
+  border: none !important;
+}
+.service-about #accordionExample .accordion-item h2 .accordion-button {
+  color: black !important;
+  background-color: white !important;
+  box-shadow: none !important;
+  font-weight: 600;
+  font-size: 1.5rem !important;
+}
+.service-about #accordionExample .accordion-item .accordion-body {
+  font-size: 1.2rem !important;
+  line-height: 1.8 !important;
+}
+
 .main_blog {
   width: 100%;
   margin: 5rem 0;

@@ -4,3 +4,104 @@
         @include section_heading();
     }
 }
+.pricing{
+    width: 100%;
+    margin-top:5rem!important;
+    .heading-content{
+        @include section_heading();
+    }
+    .pricing-card{
+        cursor: pointer;
+        &:hover {
+            background-color: $main-color;
+        }
+        &:hover h1{
+            color:white;
+        }
+        &:hover h3{
+            color:white;
+        }
+        &:hover .info{
+            color:white;
+        }
+        &:hover .card-details li{
+            color:white;
+        }
+        &:hover .card-details li::before{
+            color:white;
+        }
+        &:hover .mybtn{
+            background-color:white;
+            color:$main-color!important;
+        }
+        h3 {
+            font-weight: 600;
+            margin-bottom: 2rem;
+            color:$main-color;
+        }
+        h1{
+            font-weight: 800;
+            font-size: 3.9rem;
+            color:$main-color;
+        }
+        .info {
+            color: gray;
+            font-weight: 500;
+            font-size: 1.1rem;
+        }
+        .card-details{
+            margin-top:1.4rem;
+            li{
+                margin-bottom: 1.2rem;
+                color: gray;
+                font-size:1.4rem;
+                text-transform: capitalize;
+                font-weight: 500;
+                border-bottom: 1px solid lightgray;
+                padding-bottom: 1.5rem;
+                position: relative;
+         
+                &::before{
+                    content: "\f058";
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 900;
+                    position: absolute;
+                    top: 30%;
+                    transform: translateY(-50%);
+                    font-size: 1.5rem;
+                    color:$main-color;
+                    left:70px;
+                }
+            }
+        }
+        .mybtn{
+            @include btn(1.2rem,1rem,2rem,$main-color,white);
+        }
+
+       
+    }
+}
+
+
+.service-about{
+    #accordionExample {
+        margin-top: 3rem;
+        .accordion-item {
+            background-color: white!important;
+            border: none!important;
+            h2{
+                .accordion-button {
+                    color: black!important;
+                    background-color: white!important;
+                    box-shadow: none!important;
+                    font-weight: 600;
+                    font-size: 1.5rem !important;
+                }
+            }
+            .accordion-body {
+                font-size: 1.2rem!important;
+                line-height: 1.8!important;
+            }
+        }
+    }
+}
