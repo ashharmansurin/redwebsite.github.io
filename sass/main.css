@@ -1001,6 +1001,26 @@ footer .bottom .footer-end {
   height: 100%;
 }
 
+.main_service {
+  margin-top: 5rem !important;
+}
+.main_service .heading-content .heading-p {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #ff4354;
+  text-transform: uppercase;
+}
+.main_service .heading-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 1.5rem 0;
+}
+.main_service .heading-content p.heading-para {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: gray;
+}
+
 .main_blog {
   width: 100%;
   margin: 5rem 0;

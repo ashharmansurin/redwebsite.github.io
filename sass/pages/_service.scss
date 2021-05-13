@@ -1,0 +1,6 @@
+.main_service{
+    margin-top:5rem!important;
+    .heading-content{
+        @include section_heading();
+    }
+}
