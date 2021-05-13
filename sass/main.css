@@ -1463,4 +1463,9 @@ footer .bottom .footer-end {
   .fixed_img_contact .fixed_container.w-50 {
     width: 100% !important;
   }
+}
+@media (max-width: 400px) {
+  .button_group .contact_container .contact-img .button_group {
+    flex-direction: column !important;
+  }
 }/*# sourceMappingURL=main.css.map */

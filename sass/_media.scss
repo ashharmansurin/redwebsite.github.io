@@ -77,3 +77,16 @@
         }
     }
 }
+
+@media (max-width:400px){
+    .button_group {
+        .contact_container{
+            .contact-img{
+                .button_group {
+                   flex-direction: column!important;
+                }
+            }
+        }
+    }
+
+}
