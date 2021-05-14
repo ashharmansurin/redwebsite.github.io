@@ -53,6 +53,13 @@
     html{
         font-size: 55%;
     }
+    .hero_content {
+        text-align: center!important;
+    }
+    .play_btn_content {
+        order: -1!important;
+        margin-top: 10rem!important;
+    }
     .about{
         height:auto;
         .about-content{
@@ -80,13 +87,10 @@
 
 @media (max-width:400px){
     .button_group {
-        .contact_container{
-            .contact-img{
-                .button_group {
-                   flex-direction: column!important;
-                }
-            }
+        flex-direction: column!important;
+        margin-top:4rem!important;
+        .get_started {
+            margin-top: 3rem!important;
         }
     }
-
 }

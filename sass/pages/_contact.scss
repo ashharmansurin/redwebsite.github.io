@@ -1,0 +1,19 @@
+.map{
+    width: 100%;
+    height:70vh;
+    #main_map{
+        width: 100%;
+        height:100%;
+    }
+}
+.contact_info{
+    margin-top: 6rem;
+    margin-bottom:8rem;
+    @include case_and_contact_section();
+    h4 {
+        color:$main-color;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        margin-bottom: 1.4rem;
+    }
+}

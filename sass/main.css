@@ -718,7 +718,7 @@ footer .bottom .footer-end {
 }
 .about .about-content h4 {
   color: #ff4354;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
 }
 .about .about-content h1 {
@@ -1393,6 +1393,84 @@ footer .bottom .footer-end {
   margin-bottom: 0rem;
 }
 
+.map {
+  width: 100%;
+  height: 70vh;
+}
+.map #main_map {
+  width: 100%;
+  height: 100%;
+}
+
+.contact_info {
+  margin-top: 6rem;
+  margin-bottom: 8rem;
+}
+.contact_info_content h2 {
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+.contact_info_content p {
+  line-height: 1.9;
+  color: gray;
+}
+.contact_info_content .grid-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  margin: 2rem 0;
+}
+.contact_info_content .grid-items .item {
+  display: flex;
+  -moz-column-gap: 1.2rem;
+       column-gap: 1.2rem;
+}
+.contact_info_content .grid-items .item h5 {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+.contact_info_content .grid-items .item i {
+  color: #ff4354;
+  width: 4rem;
+}
+.contact_info_content .grid-items .item p {
+  font-size: 1.2rem;
+}
+.contact_info_content .share h4 {
+  color: #ff4354;
+  font-weight: 600;
+}
+.contact_info_content .share .social-media {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+.contact_info_content .share .social-media span {
+  display: inline-block;
+  width: 3.3rem;
+  height: 3.3rem;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 1.4rem;
+}
+.contact_info_content .share .social-media span i {
+  color: white;
+  font-size: 1.6rem;
+}
+.contact_info_content .share .social-media span:first-child {
+  margin-left: 0rem;
+}
+.contact_info h4 {
+  color: #ff4354;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin-bottom: 1.4rem;
+}
+
 @media (max-width: 992px) {
   .main_blog_container {
     flex-direction: column !important;
@@ -1442,6 +1520,15 @@ footer .bottom .footer-end {
     font-size: 55%;
   }
 
+  .hero_content {
+    text-align: center !important;
+  }
+
+  .play_btn_content {
+    order: -1 !important;
+    margin-top: 10rem !important;
+  }
+
   .about {
     height: auto;
   }
@@ -1465,7 +1552,11 @@ footer .bottom .footer-end {
   }
 }
 @media (max-width: 400px) {
-  .button_group .contact_container .contact-img .button_group {
+  .button_group {
     flex-direction: column !important;
+    margin-top: 4rem !important;
+  }
+  .button_group .get_started {
+    margin-top: 3rem !important;
   }
 }/*# sourceMappingURL=main.css.map */
