@@ -39,6 +39,7 @@ header .header_container .logo {
   font-size: 2.5rem;
   font-weight: 600;
   font-family: "Reggae One", cursive;
+  color: #ff4354;
 }
 header .header_container .toggle_btn {
   display: none;
@@ -458,47 +459,6 @@ footer .bottom .footer-end {
   text-transform: capitalize;
   font-weight: 700;
 }
-.testimonial_container .test-right {
-  background-color: #ff4354;
-}
-.testimonial_container .test-right-container {
-  padding: 7rem;
-}
-.testimonial_container .test-right-container h2 {
-  color: white;
-  font-size: 2.3rem;
-  font-weight: 700;
-  text-transform: capitalize;
-}
-.testimonial_container .test-right-container .test-wrapper {
-  margin: 2rem 0;
-}
-.testimonial_container .test-right-container .test-wrapper p {
-  font-size: 1.3rem;
-  line-height: 1.7;
-  color: white;
-  font-style: italic;
-  margin: 3rem 0;
-}
-.testimonial_container .test-right-container .test-wrapper .test-img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 0.3rem solid white;
-}
-.testimonial_container .test-right-container .test-wrapper .test-info {
-  color: white;
-  margin-top: 2rem;
-}
-.testimonial_container .test-right-container .test-wrapper .test-info h5 {
-  font-size: 1.7rem;
-  font-weight: 600;
-  text-transform: capitalize;
-}
-.testimonial_container .test-right-container .test-wrapper .test-info .blockquote-footer {
-  margin-top: 1rem;
-  color: white;
-}
 
 .case_study {
   width: 100%;
@@ -586,12 +546,74 @@ footer .bottom .footer-end {
   margin-top: 0 !important;
 }
 
+.clients {
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+.clients .test-right {
+  background-color: #ff4354;
+}
+.clients .test-right-container {
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+}
+.clients .test-right-container h2 {
+  color: white;
+  font-size: 2.3rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.clients .test-right-container .test-wrapper {
+  margin: 2rem 0;
+}
+.clients .test-right-container .test-wrapper .test-card .qoute-icon img {
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+}
+.clients .test-right-container .test-wrapper .test-card p {
+  font-size: 1.3rem;
+  line-height: 1.7;
+  color: white;
+  font-style: italic;
+  margin: 3rem 0;
+}
+.clients .test-right-container .test-wrapper .test-card .test-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  border: 0.3rem solid white;
+}
+.clients .test-right-container .test-wrapper .test-card .test-info {
+  color: white;
+  margin-top: 2rem;
+}
+.clients .test-right-container .test-wrapper .test-card .test-info h5 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.clients .test-right-container .test-wrapper .test-card .test-info .blockquote-footer {
+  margin-top: 1rem;
+  color: white;
+}
+
 .brand {
   margin-bottom: 8rem;
 }
 .brand h2 {
   font-weight: 700;
   color: black;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+.brand .brand-img {
+  width: 170px !important;
+  display: block;
+  margin: 0 auto;
 }
 
 .ourblog {

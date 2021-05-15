@@ -10,6 +10,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reggae+One&display=swap"
         rel="stylesheet">
+    <!--owl carousel min css-->
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     <!--font awesome cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
@@ -325,29 +328,7 @@
                     </div>
                 </div>
             </div>
-            <div class="test-right">
-                <div class="test-right-container text-center">
-                    <h2>What Client Says About Us</h2>
-                    <div class="test-wrapper">
-                        <div class="test-card">
-                            <div class="qoute-icon">
-                                <img src="img/quotation.svg" alt="qoute img">
-                            </div>
-                            <p class="w-75 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                                minus libero sapiente
-                                voluptas minus libero sapiente
-                                eum delectus error id sed odit aliquam?</p>
-                            <img src="img/team.jpg" alt="" class="test-img">
-                            <div class="test-info">
-                                <h5>Ashhar Mansuri</h5>
-                                <figcaption class="blockquote-footer">
-                                    Someone famous in <cite title="Source Title">Source Title</cite>
-                                </figcaption>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </section>
 
@@ -500,6 +481,78 @@
         </div>
     </div>
 
+
+    <!--clients says-->
+    <section class="clients">
+        <div class="test-right">
+            <div class="test-right-container text-center">
+                <h2>What Client Says About Us</h2>
+                <div class="test-wrapper">
+                    <div class="owl-carousel owl-theme test-card-slider">
+                        <div class="item">
+                            <div class="test-card">
+                                <div class="qoute-icon">
+                                    <img src="img/quotation.svg" alt="qoute img">
+                                </div>
+                                <p class="w-50 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Ipsa
+                                    minus libero sapiente
+                                    voluptas minus libero sapiente
+                                    eum delectus error id sed odit aliquam?</p>
+                                <img src="img/team.jpg" alt="" class="test-img">
+                                <div class="test-info">
+                                    <h5>Ashhar Mansuri</h5>
+                                    <figcaption class="blockquote-footer">
+                                        Someone famous in <cite title="Source Title">Source Title</cite>
+                                    </figcaption>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="test-card">
+                                <div class="qoute-icon">
+                                    <img src="img/quotation.svg" alt="qoute img">
+                                </div>
+                                <p class="w-50 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Ipsa
+                                    minus libero sapiente
+                                    voluptas minus libero sapiente
+                                    eum delectus error id sed odit aliquam?</p>
+                                <img src="img/team2.jpg" alt="" class="test-img">
+                                <div class="test-info">
+                                    <h5>Ashhar Mansuri</h5>
+                                    <figcaption class="blockquote-footer">
+                                        Someone famous in <cite title="Source Title">Source Title</cite>
+                                    </figcaption>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="test-card">
+                                <div class="qoute-icon">
+                                    <img src="img/quotation.svg" alt="qoute img">
+                                </div>
+                                <p class="w-50 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Ipsa
+                                    minus libero sapiente
+                                    voluptas minus libero sapiente
+                                    eum delectus error id sed odit aliquam?</p>
+                                <img src="img/team1.jpg" alt="" class="test-img">
+                                <div class="test-info">
+                                    <h5>Ashhar Mansuri</h5>
+                                    <figcaption class="blockquote-footer">
+                                        Someone famous in <cite title="Source Title">Source Title</cite>
+                                    </figcaption>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
     <div class="brand container">
         <div class="row mb-4">
             <div class="col-md-6 mx-auto">
@@ -507,17 +560,33 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3 col-sm-12 text-center">
-                <img src="img/nescafe.png" alt="" class="img-fluid">
-            </div>
-            <div class="col-md-3 col-sm-12 text-center">
-                <img src="img/nike.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="col-md-3 col-sm-12 text-center">
-                <img src="img/jenne.png" alt="" class="img-fluid">
-            </div>
-            <div class="col-md-3 col-sm-12 text-center">
-                <img src="img/adidas.png" alt="" class="img-fluid">
+            <div class="owl-carousel owl-theme brand-slider">
+                <div class="item">
+                    <div class="text-center">
+                        <img src="img/nescafe.png" alt="" class="brand-img">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="text-center">
+                        <img src="img/nike.jpg" alt="" class="brand-img">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="text-center">
+                        <img src="img/jenne.png" alt="" class="brand-img">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="text-center">
+                        <img src="img/adidas.png" alt="" class="brand-img">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="text-center">
+                        <img src="img/airbus.png" alt="" class="brand-img">
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -643,6 +712,7 @@
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous"></script>
     <script src="boostrap/bootstrap.bundle.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
     <script src="js/app.js"></script>
 
 </body>

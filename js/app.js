@@ -1,3 +1,40 @@
+$('.test-card-slider').owlCarousel({
+    loop: true,
+    margin: 0,
+    nav: false,
+    autoplay: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 1
+        },
+        1000: {
+            items: 1
+        }
+    }
+});
+
+$('.brand-slider').owlCarousel({
+    loop: true,
+    margin: 0,
+    nav: false,
+    autoplay: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 3
+        },
+        1000: {
+            items: 5
+        }
+    }
+});
+
+
 $(document).ready(function () {
     $(document).scroll(function () {
         var posTop = $(document).scrollTop();
@@ -18,3 +55,4 @@ toggleBtn.addEventListener('click', function () {
     console.log(nav);
     nav.classList.toggle('explore');
 });
+// testimonial slider js
