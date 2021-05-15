@@ -1280,49 +1280,75 @@ footer .bottom .footer-end {
   font-size: 1.2rem;
 }
 
-.social_market {
+.contact_info .contact_form_section .form_contact {
+  padding: 4rem;
+  box-shadow: 0px 0px 31px -9px rgba(128, 128, 128, 0.75);
+}
+.contact_info .contact_form_section .form_contact label.form-label {
+  font-size: 1.4rem;
+  color: black;
+  font-weight: 600;
+}
+.contact_info .contact_form_section .form_contact input, .contact_info .contact_form_section .form_contact select {
+  padding: 1.1rem;
+  font-size: 1.4rem;
+}
+.contact_info .contact_form_section .form_contact textarea {
+  font-size: 1.4rem;
+}
+.contact_info .contact_form_section .form_contact .sumbit_message {
+  display: inline-block;
+  background: #ff4354;
+  padding: 1.5rem 2.5rem;
+  color: white !important;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+}
+.contact_info .social_market {
   margin-top: 6rem;
 }
-.social_market_content h2 {
+.contact_info .social_market_content h2 {
   font-weight: 600;
   margin-bottom: 1.5rem;
 }
-.social_market_content p {
+.contact_info .social_market_content p {
   line-height: 1.9;
   color: gray;
 }
-.social_market_content .grid-items {
+.contact_info .social_market_content .grid-items {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
   margin: 2rem 0;
 }
-.social_market_content .grid-items .item {
+.contact_info .social_market_content .grid-items .item {
   display: flex;
   -moz-column-gap: 1.2rem;
        column-gap: 1.2rem;
 }
-.social_market_content .grid-items .item h5 {
+.contact_info .social_market_content .grid-items .item h5 {
   font-weight: 700;
   font-size: 1.6rem;
 }
-.social_market_content .grid-items .item i {
+.contact_info .social_market_content .grid-items .item i {
   color: #ff4354;
   width: 4rem;
 }
-.social_market_content .grid-items .item p {
+.contact_info .social_market_content .grid-items .item p {
   font-size: 1.2rem;
 }
-.social_market_content .share h4 {
+.contact_info .social_market_content .share h4 {
   color: #ff4354;
   font-weight: 600;
 }
-.social_market_content .share .social-media {
+.contact_info .social_market_content .share .social-media {
   margin-top: 2rem;
   display: flex;
   align-items: center;
 }
-.social_market_content .share .social-media span {
+.contact_info .social_market_content .share .social-media span {
   display: inline-block;
   width: 3.3rem;
   height: 3.3rem;
@@ -1334,11 +1360,11 @@ footer .bottom .footer-end {
   cursor: pointer;
   margin-left: 1.4rem;
 }
-.social_market_content .share .social-media span i {
+.contact_info .social_market_content .share .social-media span i {
   color: white;
   font-size: 1.6rem;
 }
-.social_market_content .share .social-media span:first-child {
+.contact_info .social_market_content .share .social-media span:first-child {
   margin-left: 0rem;
 }
 
